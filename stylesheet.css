@@ -1,0 +1,173 @@
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mid{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.middle-partb{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0px rgba(0,0,0,0.5);
+}
+
+.middle-parta h3{
+    text-align:left;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #0073b1;
+}
+
+.in{
+    color: #fff;
+    background: #0073b1;
+}
+
+.text h1{
+    position: relative;
+    font-weight: 600;
+    margin: 25px 55px 2px;
+    font-size: 30px;
+
+}
+
+.text p{
+    text-align: left;
+    margin: 0px 55px 25px;
+    font-size: 12px;
+}
+
+.input-group{
+    position: relative;
+    margin: 0px 55px 0px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.input-group input{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #000;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.input-group span{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    padding: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: #fff;
+    text-transform: uppercase;
+    color: lightslategray;
+}
+
+.input-group input:focus~span,
+.input-group input:valid~span{
+    top: 1px;
+    left: 12px;
+    padding: 2px 4px;
+    font-size: 12px;
+}
+
+input[type="button"]{
+    height: 50px;
+    width: 75%;
+    margin: 0 auto;
+    background: #0073b1;
+    color: #fff;
+    border:none;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 30px;
+}
+input[type="button"]:hover{
+    background: #105980;
+}
+
+.mid-last{
+    margin: 10px 100px;
+}
+
+.mid-last h1{
+    text-align: left;
+
+}
+
+.mid-last h1 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #0077b5;
+    cursor:pointer;
+}
+
+.mid-last h1 a:hover{
+    background: rgb(207,238,250);
+}
+
+.mid-last h2{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 19px;
+}
+
+.Join{
+    font-size: 18px;
+    color: #0077b5;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    margin-top: 60px;
+}
+
+footer ul{
+    max-width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+footer ul li{
+    list-style: none;
+    padding: 1px;
+    color: #000;
+    font-size: 13px;
+}
+
+
+.footer-black{
+    color: #000;
+    font-weight: 900;
+}
+
+.last-in{
+    color: #fff;
+    background: #000;
+}
