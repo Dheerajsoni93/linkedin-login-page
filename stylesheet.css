@@ -13,28 +13,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 .middle-partb{
     display: flex;
     flex-direction: column;
-    position: absolute;
     top: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 1px 0 rgba(22, 22, 22, 0.5), 0 3px 3px 0px rgba(0,0,0,0.5);
+    border-radius: 10px;
 }
 
 .middle-parta h3{
-    text-align:left;
-    font-size: 24px;
-    font-weight: 900;
-    margin-bottom: 20px;
+    margin-left: 540px;
+    margin-top: 100px;
+    margin-bottom: -70px;
+    font-size: 20px;
+    font-weight: 750;
+    font-size: 1.6rem;
     color: #0073b1;
+    word-spacing: -4px;
 }
 
 .in{
     color: #fff;
     background: #0073b1;
+    font-weight: 750;
+    display: inline-block;
+    height: 25px;
+    line-height:23px;
+    width: 25px;
+    border-radius: 3px;
 }
 
 .text h1{
@@ -71,6 +79,7 @@ body {
     border-radius: 5px;
 }
 
+
 .input-group span{
     position: absolute;
     top: 15px;
@@ -81,6 +90,7 @@ body {
     background: #fff;
     text-transform: uppercase;
     color: lightslategray;
+    margin-bottom: -80px;
 }
 
 .input-group input:focus~span,
@@ -93,8 +103,8 @@ body {
 
 input[type="button"]{
     height: 50px;
-    width: 75%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 5px auto;
     background: #0073b1;
     color: #fff;
     border:none;
@@ -113,15 +123,17 @@ input[type="button"]:hover{
 
 .mid-last h1{
     text-align: left;
-
+    margin-left: -60px;
+    margin-top: -30px;
 }
 
 .mid-last h1 a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #0077b5;
     cursor:pointer;
-}
+    
+    }
 
 .mid-last h1 a:hover{
     background: rgb(207,238,250);
@@ -129,8 +141,11 @@ input[type="button"]:hover{
 
 .mid-last h2{
     text-align: center;
-    margin: 10px 0px;
-    font-size: 19px;
+    margin: 100px 0px;
+    font-size: 16px;
+    margin-top: -90px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
 }
 
 .Join{
